@@ -73,3 +73,7 @@ a:active {
   font-family: verdana;
   padding: 16px 32px;
 }
+div 
+{
+  display: flex;
+}
