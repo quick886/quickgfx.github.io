@@ -1,6 +1,6 @@
 body {background-color:  #101010 ;}
 h1 {font-family: Verdana;
-	font-size: 60px;
+	font-size: 55px;
 	color: white;
 	text-align: center;
 	}
@@ -9,7 +9,6 @@ h2 {font-family: Verdana;
 	color: white;
 	text-align: center;
 	}
-
 a:link {
   color: white;
   background-color: transparent;
@@ -129,4 +128,21 @@ a:active {
 
 
 
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .6s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
