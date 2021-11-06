@@ -1,11 +1,19 @@
 body {background-color:  #101010 ;}
-h1 {font-family: Verdana;
+body {
+  background-image: url(https://wallpaperaccess.com/download/dark-aesthetic-computer-35589);
+}
+h1 {font-family: Helvetica;
 	font-size: 55px;
 	color: white;
 	text-align: center;
 	}
-h2 {font-family: Verdana;
+h2 {font-family: Helvetica;
 	font-size: 40px;
+	color: white;
+	text-align: center;
+	}
+h3 {font-family: Helvetica;
+	font-size: 30px;
 	color: white;
 	text-align: center;
 	}
@@ -78,9 +86,6 @@ a:active {
 }
 
 
-
-
-
 .container2 {
   position: relative;
   width: 50%;
@@ -126,9 +131,6 @@ a:active {
 	float: right;
 }
 
-
-
-
 .fade-in {
 	opacity: 1;
 	animation-name: fadeInOpacity;
@@ -146,3 +148,41 @@ a:active {
 	}
 }
 
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.fade-in-image {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
