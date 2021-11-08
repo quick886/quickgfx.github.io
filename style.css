@@ -2,7 +2,7 @@ body {background-color:  #101010 ;}
 body {
   background-image: url(https://wallpaperaccess.com/download/dark-aesthetic-computer-35589);
 }
-h1 {font-family: Helvetica;
+h1 {font-family: helvetica;
 	font-size: 55px;
 	color: white;
 	text-align: center;
@@ -30,9 +30,9 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: #8db1fe ;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
